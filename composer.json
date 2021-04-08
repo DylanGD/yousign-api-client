@@ -1,0 +1,24 @@
+{
+    "name": "dylangd/yousign-api-client",
+    "type": "symfony-bundle",
+    "description": "Symfony2 YouSign bundle",
+    "keywords": [
+        "symfony2",
+        "bundle",
+        "yousign"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yousign\\": ""
+        }
+    },
+    "require": {
+        "php": ">=5.5.9",
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        }
+    }
+}
